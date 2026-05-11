@@ -1,9 +1,22 @@
-﻿namespace Lab4;
+﻿using System.Text;
+
+namespace Lab4;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Lab 4");
+        Console.OutputEncoding = Encoding.UTF8;
+        Console.InputEncoding = Encoding.UTF8;
+
+        var text = new Text("Кожна людина з великою любовʼю згадує те місце, де вона народилася. Це маленька батьківщина кожного з нас.\nКоли їх скласти разом, вийде велика держава — Україна. Це наша земля з її славною історією і мудрими, талановитими людьми. Протягом багатьох віків наш народ боровся за свою незалежність і переміг.\nУкраїна в усьому, що нас оточує. Це і ясне небо над пшеничними ланами, і червона калина в лузі, і криниця на подвірʼї, і рушничок, вишитий бабусею. Любіть свою Батьківщину!");
+        var sortedSentences = text.GetSortedSentences();
+
+        Console.WriteLine($"1. Text:\n{text}\n");
+        Console.WriteLine("2. Sorted sentences");
+        foreach (var sentence in sortedSentences)
+        {
+            Console.WriteLine($"({sentence.WordsCount}) {sentence}");
+        }
     }
 }
