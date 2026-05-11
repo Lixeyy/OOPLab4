@@ -13,6 +13,6 @@
 
 ## Відео захисту
 
-[![Дивитися відео в Youtube](https://github.com/user-attachments/assets/91b354cd-b664-4d5c-8139-3884fbf547f0)](https://youtu.be/yNeIbKrJ3ns)
+[![Дивитися відео в Youtube](https://github.com/user-attachments/assets/f26590b0-d0a3-468f-b39b-7bb5c14901ed)](https://youtu.be/8TlHVa4sceU)
 
-https://youtu.be/yNeIbKrJ3ns
+https://youtu.be/8TlHVa4sceU
